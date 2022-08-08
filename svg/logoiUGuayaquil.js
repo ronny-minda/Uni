@@ -1,6 +1,6 @@
 import * as React from "react"
 
-const SvgComponent = (props) => (
+const LogoUGuayaquil = (props) => (
   <svg
     id="Layer_1"
     xmlns="http://www.w3.org/2000/svg"
@@ -67,4 +67,4 @@ const SvgComponent = (props) => (
   </svg>
 )
 
-export default SvgComponent
+export default LogoUGuayaquil

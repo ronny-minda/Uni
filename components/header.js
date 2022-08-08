@@ -8,7 +8,7 @@ const Header = () => {
     const [ menuDes, setMenuDes ] = useState(false);
 
     return (
-        <header className="mb-8">
+        <header className="mb-20">
             <section className="bg-sky-300 flex justify-evenly border-b- border-neutral-600 ">
                 <Link href='/'>
                     <a>
@@ -26,24 +26,32 @@ const Header = () => {
                     </a>
                 </Link>
             </section>
+            
 
-            <section className="shadow-lg flex justify-around items-center h-20 w-full my-1 bg-stone-200 rounded">
+            <section className="border border-gray-300 shadow-lg flex justify-around items-center h-20 w-full my-1 bg-stone-200 rounded">
 
                 <nav className="flex">
                     <li className="list-none mx-4">
-                        <Link href='/'>
+                        <Link href='/login'>
+                            <a className="bg-amber-500 px-4 py-2 active:bg-amber-400 rounded text-xs text-white hover:text-black">Login</a>
+                        </Link>
+                    </li>
+                    <li className="list-none mx-4">
+                        <Link href='/actual'>
                             <a className="text-xs text-gray-500 hover:text-black">Actual</a>
                         </Link>
                     </li>
                     <li className="list-none mx-4">
-                        <Link href='/'>
+                        <Link href='/archivos'>
                             <a className="text-xs text-gray-500 hover:text-black">Archivos</a>
                         </Link>
                     </li>
                     <li className="list-none mx-4 relative">
                         <Link href='/'>
-                            <a className="text-xs text-gray-500 hover:text-black" onBlur={() => setMenuDes(false) } onClick={ () => {
+                            {/* onBlur={() => setMenuDes(false) } */}
+                            <a className="text-xs text-gray-500 hover:text-black" onClick={ (e) => {
                                 
+                                e.preventDefault()
                                 menuDes ? setMenuDes(false) : setMenuDes(true)
 
                             }}>Acerca de↓</a>
@@ -54,18 +62,18 @@ const Header = () => {
                         menuDes && <ul className="bg-stone-100 w-32 absolute top-6 p-3 drop-shadow-md rounded">
 
                             <li>
-                                <Link href='/'>
-                                    <a className="text-xs text-gray-500 hover:text-black">Comite Editorial</a>
+                                <Link href='/comiteEditorial'>
+                                    <a className="text-xs text-gray-500 hover:text-black" onClick={()=> setMenuDes(false)} >Comite Editorial</a>
                                 </Link>
                             </li>
-                            <li>
-                                <Link href='/'>
-                                    <a className="text-xs text-gray-500 hover:text-black">Propuestas</a>
+                            {/* <li>
+                                <Link href='/propuestas'>
+                                    <a className="text-xs text-gray-500 hover:text-black" onClick={()=> setMenuDes(false)} >Propuestas</a>
                                 </Link>
-                            </li>
+                            </li> */}
                             <li>
-                                <Link href='/'>
-                                    <a className="text-xs text-gray-500 hover:text-black">Contacto</a>
+                                <Link href='/contacto'>
+                                    <a className="text-xs text-gray-500 hover:text-black" onClick={()=> setMenuDes(false)} >Contacto</a>
                                 </Link>
                             </li>
 
@@ -74,7 +82,7 @@ const Header = () => {
                         }
                     </li>
                     <li className="list-none mx-4">
-                        <Link href='/'>
+                        <Link href='/cronograma'>
                             <a className="text-xs text-gray-500 hover:text-black">Cronograma de la Revista</a>
                         </Link>
                     </li>

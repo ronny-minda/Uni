@@ -2,7 +2,7 @@ import * as React from "react"
 
 const SvgComponent = (props) => (
   <svg
-className="h-    w-10"
+className="h-20 w-20 my-5"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 141 139"
     {...props}
