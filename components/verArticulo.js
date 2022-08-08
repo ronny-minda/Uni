@@ -25,7 +25,7 @@ const VerArticulo = () => {
   
               <section className='w-2/4'>
                 <p>Revista IDI+ Volumen 5 Número 1 (2022)</p>
-                <p><b>Publicado:</b> 30-06-2022</p>
+                <p><b>Publicado:</b> 30-05-2020</p>
               </section>
               
             </div>

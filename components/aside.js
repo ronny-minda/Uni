@@ -73,6 +73,12 @@ const Aside = () => {
 
             <p>
                 <Link href='/'>
+                <a className='px-4 text-gray-600 hover:text-gray-400 my-3 hover:underline text-sm'>Lineas de investigacion Facso</a>
+                </Link>
+            </p>
+
+            <p>
+                <Link href='/'>
                 <a className='px-4 text-gray-600 hover:text-gray-400 my-3 hover:underline text-sm'>Proceso Editorial</a>
                 </Link>
             </p>
@@ -87,19 +93,19 @@ const Aside = () => {
             <h3 className='px-4 text-gray-600 font-bold text-xl my-3'>Información de la Revista</h3>
 
             <p>
-                <Link href='/'>
+                <Link href='/comiteEditorial'>
                 <a className='px-4 text-gray-600 hover:text-gray-400 my-3 hover:underline text-sm'>Comité Editorial Interno</a>
                 </Link>
             </p>
 
             <p>
-                <Link href='/'>
-                <a className='px-4 text-gray-600 hover:text-gray-400 my-3 hover:underline text-sm'>Comité Científico Internacional</a>
+                <Link href='/comiteEditorial'>
+                <a className='px-4 text-gray-600 hover:text-gray-400 my-3 hover:underline text-sm'>Comité Científico Nacional</a>
                 </Link>
             </p>
 
             <p>
-                <Link href='/'>
+                <Link href='/comiteEditorial'>
                 <a className='px-4 text-gray-600 hover:text-gray-400 my-3 hover:underline text-sm'>Comité Científico Internacional</a>
                 </Link>
             </p>

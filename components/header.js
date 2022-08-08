@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Link from 'next/link'
 
 import LogoUGuayaquil from "../svg/logoiUGuayaquil";
+import LogoFacso from "../svg/logoFacso";
 
 const Header = () => {
 
@@ -9,10 +10,16 @@ const Header = () => {
 
     return (
         <header className="mb-20">
-            <section className="bg-sky-300 flex justify-evenly border-b- border-neutral-600 ">
+            <section className="bg-sky-300 flex justify-evenly border-b- border-neutral-600">
                 <Link href='/'>
-                    <a>
-                        <LogoUGuayaquil className="h-12 my-3" /> 
+                    <a className="">
+                        <LogoUGuayaquil className="h-12 my-3" />
+                    </a>
+                </Link>
+
+                <Link href='/'>
+                    <a className="">
+                        <LogoFacso className="h-12 my-3" />
                     </a>
                 </Link>
 
@@ -28,7 +35,7 @@ const Header = () => {
             </section>
             
 
-            <section className="border border-gray-300 shadow-lg flex justify-around items-center h-20 w-full my-1 bg-stone-200 rounded">
+            <section className=" border bg-stone-200 border-gray-300 shadow-lg flex justify-around items-center h-20 w-full my-1 rounded">
 
                 <nav className="flex">
                     <li className="list-none mx-4">
