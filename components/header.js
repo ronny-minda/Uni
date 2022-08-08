@@ -17,7 +17,7 @@ const Header = () => {
                 </Link>
 
                 
-                <Link href='/zzzzzzzz' >
+                <Link href='/' >
                     <a className="flex items-center">
                     
                             <div className="bg-[url('../public/home_revistas.png')] h-7 w-7 "></div>
