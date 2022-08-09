@@ -1,15 +1,15 @@
 import * as React from "react"
 
-const SvgComponent = (props) => (
+const Facebook = (props) => (
   <svg
-className="h-20 w-20 my-5"
-    xmlns="http://www.w3.org/2000/svg"
+    className="h-10 w-10"
     viewBox="0 0 141 139"
+    xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
     <path
       style={{
-        fill: "#7dd3fc",
+        fill: "#3e7790",
         fillOpacity: 1,
         stroke: "none",
         strokeWidth: 0.514222,
@@ -20,4 +20,4 @@ className="h-20 w-20 my-5"
   </svg>
 )
 
-export default SvgComponent
+export default Facebook

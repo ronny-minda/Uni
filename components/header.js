@@ -24,10 +24,10 @@ const Header = () => {
                 </Link>
 
                 
-                <Link href='/' >
+                <Link href='/archivos' >
                     <a className="flex items-center">
                     
-                            <div className="bg-[url('../public/home_revistas.png')] h-7 w-7 "></div>
+                            <div className="bg-[url('../public/home_revistas.png')] bg-no-repeat h-7 w-7 "></div>
                             <h3 className="text-xs">Ir al Portal de Revistas</h3>
                         
                     </a>
@@ -41,6 +41,11 @@ const Header = () => {
                     <li className="list-none mx-4">
                         <Link href='/login'>
                             <a className="bg-amber-500 px-4 py-2 active:bg-amber-400 rounded text-xs text-white hover:text-black">Login</a>
+                        </Link>
+                    </li>
+                    <li className="list-none mx-4">
+                        <Link href='/'>
+                            <a className="text-xs text-gray-500 hover:text-black">Inicio</a>
                         </Link>
                     </li>
                     <li className="list-none mx-4">
@@ -69,7 +74,7 @@ const Header = () => {
                         menuDes && <ul className="bg-stone-100 w-32 absolute top-6 p-3 drop-shadow-md rounded">
 
                             <li>
-                                <Link href='/comiteEditorial'>
+                                <Link href='/comiteEditorialInterno'>
                                     <a className="text-xs text-gray-500 hover:text-black" onClick={()=> setMenuDes(false)} >Comite Editorial</a>
                                 </Link>
                             </li>

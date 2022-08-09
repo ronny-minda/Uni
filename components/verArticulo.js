@@ -24,7 +24,7 @@ const VerArticulo = () => {
               </div>
   
               <section className='w-2/4'>
-                <p>Revista IDI+ Volumen 5 Número 1 (2022)</p>
+                <p>Revista Segmento Volumen 1 Número 1 (2020)</p>
                 <p><b>Publicado:</b> 30-05-2020</p>
               </section>
               
@@ -36,7 +36,7 @@ const VerArticulo = () => {
 
             <Link href='/'>
               <a className=''>
-                <p className='text-xl hover:text-slate-500 hover:underline'>Revista IDI+ Volumen 5. Número 1. 2022</p>
+                <p className='text-xl hover:text-slate-500 hover:underline'>Revista Segmento Volumen 1. Número 1. 2020</p>
               </a>
             </Link>
 

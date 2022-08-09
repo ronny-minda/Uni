@@ -9,7 +9,8 @@ const Cronograma = () => {
 
     return (
         <Layout>
-            <h1 className="font-bold text-2xl text-slate-700">Cronograma de Revista</h1>
+            <h1>Cronograma</h1>
+            {/* <h1 className="font-bold text-2xl text-slate-700">Cronograma de Revista</h1>
             
             <hr className="my-7"></hr>
             
@@ -23,7 +24,7 @@ const Cronograma = () => {
               loading="lazy"
             />
 
-            <span className="font-bold text-slate-700 mt-6">Última Actualización: Julio 2022</span>
+            <span className="font-bold text-slate-700 mt-6">Última Actualización: Julio 2022</span> */}
         </Layout>
     )
 }
