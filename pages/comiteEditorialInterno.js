@@ -38,7 +38,7 @@ const omiteEditorialInterno = () => {
                     <span className="text-sm text-slate-500">Docente Universidad de Guayaquil</span>
                     <span className="text-sm text-slate-500">Facultad de Comunicación</span>
                     <span className="text-sm text-slate-500">Director de la Carrera de Diseño</span>
-                    <span className="text-sm text-slate-500">lcaraya@tec.ac.cr</span>
+                    <span className="text-sm text-slate-500">david.strasserl@ug.edu.ec</span>
                     <span className="text-sm text-slate-500">Master en Diseño y Branding</span>
                 </div>
                 
@@ -69,7 +69,7 @@ const omiteEditorialInterno = () => {
                     <span className="text-sm text-slate-500">Facultad de Comunicación</span>
                     <span className="text-sm text-slate-500">Docente de la Carrera de Diseño</span>
                     <span className="text-sm text-slate-500">Gestor de titulación</span>
-                    <span className="text-sm text-slate-500">Comité nacional</span>
+                    {/* <span className="text-sm text-slate-500">Comité nacional</span> */}
                 </div>
                 
 

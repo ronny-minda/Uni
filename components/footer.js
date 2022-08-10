@@ -6,14 +6,27 @@ import LogoUGuayaquil from "../svg/logoiUGuayaquil";
 const Footer = () => {
 
     return (
-        <footer className="bg-stone-200 mt-10 flex justify-evenly items-center h-52 ">
+        <footer className="bg-stone-200 mt-10 flex justify-evenly items-center h-auto ">
             
-            <span className="">
+            <span className="flex flex-col my-9">
 
-                <span className="font-bold">Dirección OAI-PMH: </span>
-                <Link href='/'>
-                    <a className=" hover:underline hover:text-slate-500">https://revistas.tec.ac.cr/index.php/idi/oai</a>
-                </Link>
+
+                
+                <hr className="my-4"></hr>
+
+                <span>Revista Segmento</span>
+                <span>Email: revista.segmentof@ug.edu.ec</span>
+
+                <span>Dirección: Cdla Quisquis Calle Eugenio Espejo E/Hector Toscano y A. Romero Castillo</span>
+
+                <span>Telf.:04-2452127</span>
+
+                <h3 className="font-bold text-lg mt-5">Contacto principal</h3>
+
+                <span>Lcdo. David Strasser L MSc.</span>
+                <span>david.strasserl@ug.edu.ec</span>
+
+                <span>Telef. 0999962675</span>
             
             </span>
 
