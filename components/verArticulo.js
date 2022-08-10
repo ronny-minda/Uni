@@ -25,7 +25,7 @@ const VerArticulo = () => {
   
               <section className='w-2/4'>
                 <p>Revista Segmento Volumen 1 Número 1 (2020)</p>
-                <p><b>Publicado:</b> 30-05-2020</p>
+                <p><b>Publicado:</b> 30-06-2020</p>
               </section>
               
             </div>
@@ -43,11 +43,11 @@ const VerArticulo = () => {
             <p>1-16</p>
 
             <div>
-              <button className='h-10 w-14 m-1 hover:bg-slate-600 rounded text-white bg-slate-700'>PDF</button>
-              <button className='h-10 w-14 m-1 hover:bg-slate-600 rounded text-white bg-slate-700'>EPUB</button>
+              <button className='text-center h-10 w-14 m-1 hover:bg-slate-600 rounded text-white bg-slate-700'>PDF</button>
+              <button className='text-center h-10 w-14 m-1 hover:bg-slate-600 rounded text-white bg-slate-700'>EPUB</button>
             </div>
 
-            <button className='h-10 w-60 m-1 hover:bg-slate-600 rounded text-white bg-slate-700'>VER TODOS LOS NUMEROS</button>
+            <button className='text-center h-10 w-60 m-1 hover:bg-slate-600 rounded text-white bg-slate-700'>VER TODOS LOS NUMEROS</button>
         </>
     )
 }

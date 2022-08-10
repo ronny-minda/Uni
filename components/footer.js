@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 import LogoUGuayaquil from "../svg/logoiUGuayaquil";
+import LogoFacso from "../svg/logoFacso";
 
 const Footer = () => {
 
@@ -30,15 +31,29 @@ const Footer = () => {
             
             </span>
 
-            <span className="h-10 w-10">
+            <div>
+                <span className="h-10 w-10">
 
-                <Link href='/'>
-                    <a>
-                        <LogoUGuayaquil className='h-12' />
-                    </a>
-                </Link>
+                    <Link href='/'>
+                        <a className="">
+                            <LogoUGuayaquil className='h-12' />
+                        </a>
+                    </Link>
 
-            </span>
+                </span>
+                
+                <span className="h-10 w-10">
+
+                    <Link href='/'>
+                        <a>
+                            <LogoFacso className='h-12' />
+                        </a>
+                    </Link>
+
+                </span>
+            </div>
+
+            
         </footer>
     )
 }
