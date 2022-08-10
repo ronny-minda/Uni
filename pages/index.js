@@ -17,7 +17,7 @@ const Home = () => {
       <Layout>
       
             <Image
-              src='/imgPrincipal.jpeg'
+              src='/imgPrincipal.jpg'
               alt="Picture of the author"
               width='100%'
               height={50}
