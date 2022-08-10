@@ -15,7 +15,7 @@ const Home = () => {
   return (
 
       <Layout>
-      
+        {/* asdfasdfas */}
             <Image
               src='/imgPrincipal.jpg'
               alt="Picture of the author"
