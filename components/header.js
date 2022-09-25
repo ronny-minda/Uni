@@ -9,7 +9,7 @@ const Header = () => {
     const [ menuDes, setMenuDes ] = useState(false);
 
     return (
-        <header className="mb-20">
+        <header className="mb-20 shadow-xl">
             <section className="bg-sky-300 flex justify-evenly border-b- border-neutral-600">
                 <Link href='/'>
                     <a className="">
@@ -105,7 +105,7 @@ const Header = () => {
                     console.log('submit')
                 } }>
 
-                    <input type='text' className="rounded shadow-inner focus:ring focus:ring-zinc-300 outline-none"></input>
+                    <input type='text' className="rounded shadow-inner focus:ring focus:ring-zinc-300 outline-none bg-slate-300 hover:bg-slate-400"></input>
                     <button className="bg-slate-300 mx-1 text-xs px-2 py-1 active:bg-slate-400 rounded">BUSCAR</button>
                 
                 </form>

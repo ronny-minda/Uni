@@ -1,13 +1,20 @@
 import Link from "next/link";
 import React from "react";
 
+
 import LogoUGuayaquil from "../svg/logoiUGuayaquil";
 import LogoFacso from "../svg/logoFacso";
 
-const Footer = () => {
+const Footer = (
+    
+) => {
+
+
+
 
     return (
-        <footer className="bg-stone-200 mt-10 flex justify-evenly items-center h-auto ">
+
+        <footer className="bg-slate-400 mt-10 flex justify-evenly items-center h-auto ">
             
             <span className="flex flex-col my-9">
 

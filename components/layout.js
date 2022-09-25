@@ -6,9 +6,15 @@ import Aside from "./aside";
 
 const Layout = ({children}) => {
 
+
+    
+
+    
+
     return (
         <>
             <Header />
+
             
             <main className='flex max-w-6xl m-auto ' >
 
@@ -16,7 +22,7 @@ const Layout = ({children}) => {
                     {children}
                 </section>
                 
-                <Aside />
+                <Aside  ver={true} />
 
             </main>
 

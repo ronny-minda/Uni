@@ -10,11 +10,12 @@ import VerArticulo from '../components/verArticulo'
 
 
 
+
 const Home = () => {
 
   return (
 
-      <Layout>
+      <Layout ver={true}>
         {/* asdfasdfas */}
             <Image
               src='/imgPrincipal.jpg'
