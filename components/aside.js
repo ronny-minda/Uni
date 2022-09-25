@@ -54,13 +54,13 @@ const Aside = () => {
 
         <hr className='mx-6'></hr>
 
-        {/* <ul className='my-3'>
+        <ul className='my-3'>
             <li>
             <Link href='/envios'>
                 <a className='p-6 hover:underline hover:text-slate-400'>envios</a>
             </Link>
             </li>
-        </ul> */}
+        </ul>
 
         <ul className='my-3'>
             <li>

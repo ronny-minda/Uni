@@ -16,7 +16,7 @@ const Footer = (
 
         <footer className="bg-slate-400 mt-10 flex justify-evenly items-center h-auto ">
             
-            <span className="flex flex-col my-9">
+            <span className="flex flex-col my-9 flex-wrap">
 
 
                 
