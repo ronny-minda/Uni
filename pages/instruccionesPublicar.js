@@ -70,7 +70,41 @@ const InstruccionesPublicar = () => {
             <li className="my-3">15.	La Comisión Editorial de Revista SEGMENTO no dará trámite de edición al artículo que incumpla con estos requisitos.</li>
             
         </ol>
+        
+        <p className="text-sm my-4"><strong>Artículos originales:</strong> Artículos que representen una investigación en profundidad en diversas disciplinas científicas.</p>
+
+		<p className="text-sm my-4"><strong>Artículos de revisión:&nbsp;</strong>Normalmente comprenden menos de 10.000 palabras. Los meta-análisis se consideran revisiones. Se prestará especial atención a las referencias actualizadas en la revisión.</p>
+
+
+        <p className="text-sm my-4"><strong>Título:</strong> El título debe ser breve, conciso y descriptivo. No debe contener referencias bibliográficas ni números compuestos o abreviaturas no estandarizadas. En español e inglés.</p>
+        <p className="text-sm my-4"><strong>Resumen:</strong> El Resumen debe ser de tipo analítico (Objetivo, Metodología, Resultados y Conclusiones), que no supere las <strong>200 palabras</strong>. El Resumen debe describir brevemente el propósito u objetivo del estudio, cómo se realizó la investigación, los resultados más importantes y las principales conclusiones extraídas de los resultados, respectivamente.Evitar referencias y abreviaturas.Español e Inglés.</p>
+        <p className="text-sm my-4"><strong>Palabras clave:</strong> Se pide a los autores que proporcionen de 4 a 6 palabras clave para identificar los principales temas tratados. Estas palabras clave se utilizan con fines de indexación, para lo cual deben estar incluidas en el Tesauro de la UNESCO. Español e inglés.</p>
+        <p className="text-sm my-4"><strong>Introducción:</strong> Los autores deben esforzarse por definir la importancia del trabajo y la justificación de su publicación. La discusión de los antecedentes debe ser breve y limitarse al material pertinente.</p>
+        <p className="text-sm my-4"><strong>Material y métodos:&nbsp;</strong>Los autores deben ser lo más concisos posible en las descripciones teóricas y experimentales. La sección debe proporcionar toda la información necesaria para garantizar la reproducibilidad. Los métodos publicados anteriormente deben indicarse con sus referencias y sólo deben describirse las modificaciones pertinentes.</p>
+        <p className="text-sm my-4"><strong>Resultados:</strong> Los resultados del estudio deben ser claros y concisos. Limite el uso de tablas y figuras a la representación de los datos que sean esenciales para la interpretación del estudio. No duplique los datos tanto en las figuras como en las tablas. Los resultados deben presentarse en una secuencia lógica en el texto, las tablas y las ilustraciones.</p>
+        <p className="text-sm my-4"><strong>Discusión:</strong> Debe explorar la importancia de los resultados del trabajo, no repetirlos. Incluya en la discusión las implicaciones de los resultados y sus limitaciones, el modo en que los resultados encajan en el contexto de otros trabajos relevantes y las orientaciones para futuras investigaciones.</p>
+        <p className="text-sm my-4"><strong>Conclusión(es):</strong> Pueden ser independientes y estar relacionadas con los objetivos del estudio, con nuevas hipótesis cuando se justifique. Incluya recomendaciones cuando proceda. Deben evitarse las afirmaciones sin fundamento y las conclusiones que no estén completamente respaldadas por los datos obtenidos.</p>
+        <p className="text-sm my-4"><strong>Referencias:</strong> Es responsabilidad de los autores asegurarse de que la información de cada referencia es completa y precisa. Todas las referencias mencionadas en la lista de referencias deben ser citadas en el texto y viceversa. Se recomienda que las fuentes bibliográficas sean tomadas de <a href="https://www.scopus.com/home.uri">Scopus</a>&nbsp;</p>
+
+        <h2 className="my-4 text-2xl mb-5 font-bold">Artículos</h2>
+
+        <p className="text-sm my-4">Política de sección por defecto</p>
+
+        <h2 className="my-4 text-2xl mb-5 font-bold">Declaración de privacidad</h2>
+
+        <p className="text-sm my-4">Los nombres y las direcciones de correo electrónico introducidos en esta revista se usarán exclusivamente para los fines establecidos en ella y no se proporcionarán a terceros o para su uso con otros fines.</p>
+
+        <h2 className="my-4 text-2xl mb-5 font-bold">Declaración de privacidad</h2>
+
+        <p className="text-sm my-4">Los nombres y las direcciones de correo electrónico introducidos en esta revista se usarán exclusivamente para los fines establecidos en ella y no se proporcionarán a terceros o para su uso con otros fines.</p>
+
+
         <li className="list-none">Puede descargar estas instrucciones para publicar haciendo <a className="text-cyan-500" title="Linkedin" href="https://orcid.org" target="_blank" rel="noopener noreferrer">CLIC AQUÍ.</a> </li>
+
+
+        
+
+
 
     </Layout>
     )
